@@ -8,13 +8,13 @@ public class Challenger004 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe as notas do bimestre: ");
 
-        float grade = sc.nextInt();
-        float gradeOne = sc.nextInt();
-        float gradeTwo = sc.nextInt();
-        float gradeThree = sc.nextInt();
+        float grade = sc.nextFloat();
+        float gradeOne = sc.nextFloat();
+        float gradeTwo = sc.nextFloat();
+        float gradeThree = sc.nextFloat();
 
-        float average = (grade + gradeOne + gradeTwo +gradeThree)/2;
-        System.out.println("A média é: " + average);
+        float average = (grade + gradeOne + gradeTwo +gradeThree)/4;
+        System.out.printf("A média é: %.1f \n", average);
 
     }
 }
