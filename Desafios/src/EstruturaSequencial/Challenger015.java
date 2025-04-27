@@ -29,5 +29,6 @@ public class Challenger015 {
         System.out.println("INSS (8%): R$ -" + calcInss);
         System.out.println("Sindicato (5%): R$ -" + calcUnion);
         System.out.printf("Salário liquido  :R$ %.2f" , netSalary);
+
     }
 }
