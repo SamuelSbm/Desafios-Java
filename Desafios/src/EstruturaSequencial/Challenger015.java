@@ -9,7 +9,7 @@ public class Challenger015 {
 
         System.out.println("Digite o valor ganho por hora: ");
         double earningsHour = sc.nextDouble();
-        System.out.println("Digite a quantidade de horas trabalhadas: ");
+        System.out.println("Digite a quantidade de horas mensais trabalhadas: ");
         double monthlyHours = sc.nextDouble();
 
         double grossSalary = earningsHour * monthlyHours;
