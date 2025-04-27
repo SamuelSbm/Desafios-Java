@@ -24,10 +24,10 @@ public class Challenger015 {
 
         double netSalary = grossSalary - calcTax - calcInss - calcUnion;
 
-        System.out.println("Salário Bruto : R$ " + grossSalary);
-        System.out.println("Imposto de Renda IR (11%) : R$ " + calcTax);
-        System.out.println("INSS (8%) : R$ " + calcInss);
-        System.out.println("Sindicato (5%) : R$ " + calcUnion);
-        System.out.printf("Salário liquido  : R$ %.2f" , netSalary);
+        System.out.printf("Salário Bruto: R$ %.2f " , grossSalary);
+        System.out.println("\nImposto de Renda IR (11%): R$ -" + calcTax);
+        System.out.println("INSS (8%): R$ -" + calcInss);
+        System.out.println("Sindicato (5%): R$ -" + calcUnion);
+        System.out.printf("Salário liquido  :R$ %.2f" , netSalary);
     }
 }
