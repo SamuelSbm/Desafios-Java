@@ -7,8 +7,8 @@ public class Challenger014 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe a quantidade de kilos pescados hoje: ");
-
         int kilos = sc.nextInt();
+
         int limitWeight = 50;
         int excess = kilos - limitWeight;
         double fineFixed = 4.0;
@@ -16,6 +16,5 @@ public class Challenger014 {
 
         System.out.println("Limite diário: " + limitWeight + "\nKilos excedentes: " + excess );
         System.out.printf("Você excedeu o limite estipulado, multa a pagar: R$ %.2f" , excessFee);
-
     }
 }

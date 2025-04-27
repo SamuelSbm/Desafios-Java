@@ -7,12 +7,8 @@ public class Challenger009 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe a temperatura em Farenheit: ");
-
         float farenheit = sc.nextFloat();
         float celcius = (5 * (farenheit - 32 ) / 9);
-
         System.out.printf("A temperatura em celcius é : %.4f °C" , celcius);
-
-
     }
 }

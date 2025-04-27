@@ -7,8 +7,7 @@ public class Challenger007 {
 
         System.out.println("Digite a área: ");
         Scanner sc = new Scanner(System.in);
-
-        float area;
+        float area = sc.nextFloat();
         area = sc.nextFloat();
         area = area * area;
 

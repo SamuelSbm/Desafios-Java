@@ -14,12 +14,12 @@ public class Challenger011 {
         System.out.println("Digite um número real: ");
         double realNumber = sc.nextDouble();
 
-        int a = (numberOne * 2) + (numberTwo /2);
-        int b = (int) ((numberOne * 3) + (realNumber));
-        double c = Math.pow(realNumber , 3);
+        int doubleFistPlusHalfSecond = (numberOne * 2) + (numberTwo /2);
+        int sumThreeFistThird = (int) ((numberOne * 3) + (realNumber));
+        double thirdCube = Math.pow(realNumber , 3);
 
-        System.out.println("Resultado: " + a);
-        System.out.println("Resultado: " + b);
-        System.out.println("Resultado: " + c);
+        System.out.println("Resultado: " + doubleFistPlusHalfSecond);
+        System.out.println("Resultado: " + sumThreeFistThird);
+        System.out.println("Resultado: " + thirdCube);
     }
 }

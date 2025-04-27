@@ -9,7 +9,6 @@ public class Challenger008 {
         System.out.println("Digite o valor ganho por hora: ");
         float amountEarned = sc.nextFloat();
         System.out.println("Qual a quantidade de horas trabalhadas?: ");
-
         int hours = sc.nextInt();
         float resut = (amountEarned * hours);
 
