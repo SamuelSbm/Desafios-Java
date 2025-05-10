@@ -15,11 +15,5 @@ public class Challenger016 {
 
         System.out.println("\nQuantidade de latas necessarias: " + litersGallon);
         System.out.println("Preço: R$" + price);
-
-
-
-
-
-
     }
 }

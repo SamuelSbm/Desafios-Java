@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Challenger017 {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         System.out.println("Informe o tamanho em m² da área a ser pintada: ");
         double area = sc.nextDouble();
