@@ -17,11 +17,11 @@ public class Challenger003 {
                 System.out.println("Sexo masculino!");
             else
                 System.out.println("Sexo inválido");
-        }while (!letter.equalsIgnoreCase("f") && !letter.equalsIgnoreCase("m"));
+        } while (!letter.equalsIgnoreCase("f") && !letter.equalsIgnoreCase("m"));
     }
 }
 
-/* equalsIgnoreCase para simplificar
-a comparação entre maiúsculas e minúsculas.*/
+/* equalsIgnoreCase para ignorar
+letras maiúsculas ou minúsculas.*/
 
 

@@ -7,14 +7,13 @@ public class Challenger002 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Dígite um número: ");
+        int console = sc.nextInt();
 
         int number = 0;
-        int console = sc.nextInt();
 
         if (console > number)
             System.out.println("Seu número, " + console + " é um número positivo!");
-        else if (console < number) {
+        else
             System.out.println("Seu número, " + console + " é um número negativo! ");
-        }
     }
 }

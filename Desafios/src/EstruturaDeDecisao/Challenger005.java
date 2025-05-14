@@ -16,8 +16,7 @@ public class Challenger005 {
             System.out.println("Aprovado com Distinção, sua média é: " + resut);
         else if (resut < 7)
             System.out.println("Reprovado, sua média é: " + resut);
-        else {
+        else
             System.out.println("Aprovado, sua média é: " + resut);
-        }
     }
 }
