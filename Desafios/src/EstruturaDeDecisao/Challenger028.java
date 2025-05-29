@@ -65,6 +65,10 @@ public class Challenger028 {
         double discountRump = (priceRump * cardTabajara);
         double discountSteak = (priceFileSteak * cardTabajara);
 
+        double percentFile = priceDobleFile * 0.05;
+        double percentRump = priceRump * 0.05;
+        double percentSteak = priceFileSteak * 0.05;
+
         System.out.println("-------------------------------------------------------------------");
         System.out.println("                      --= Cumpom fiscal =--                       ");
         if(priceDobleFile > 0)System.out.printf("\nFile Duplo R$ %.2f -- %.0fKG\n", priceDobleFile, totalKiles);
@@ -95,15 +99,26 @@ public class Challenger028 {
             if(priceFileSteak > 0)System.out.println("Valor a pagar: R$ " + priceRump);
         }
         if(selection == 2){
-            if(priceDobleFile > 0)System.out.println("Valor com desconto R$ " + discountFile);
+            if(priceDobleFile > 0) {
+                System.out.printf("\nValor do desconto R$ %.2f", percentFile);
+                System.out.printf("\nValor com desconto R$ %.2f\n", discountFile);
+                System.out.println("------- Obrigado por comprar com o cartão Tabajara! ---------");
+            }
         }
         if(selection == 2){
-            if(priceRump > 0)System.out.println("Valor com desconto R$ " + discountRump);
+            if(priceRump > 0) {
+                System.out.printf("\nValor do desconto R$ %.2f", percentRump);
+                System.out.printf("\nValor com desconto R$ %.2f\n", discountRump);
+                System.out.println("------- Obrigado por comprar com o cartão Tabajara! ---------");
+            }
         }
         if(selection == 2){
-            if(priceFileSteak > 0)System.out.println("Valor com desconto R$ " + discountSteak);
+            if(priceFileSteak > 0) {
+                System.out.printf("\nValor do desconto R$ %.2f", percentSteak);
+                System.out.printf("\nValor com desconto R$ %.2f\n", discountSteak);
+                System.out.println("------- Obrigado por comprar com o cartão Tabajara! ---------");
+            }
         }
-        System.out.println("------- Obrigado por comprar com o cartão Tabajara! ---------");
         System.out.println("-------------------------------------------------------------");
 
     }
