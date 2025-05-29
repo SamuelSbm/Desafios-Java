@@ -9,9 +9,9 @@ public class Challenger028 {
 
         System.out.println("----------------------------------------------------");
         System.out.println("             --= Carnes Disponíveis =--       ");
-        System.out.println("File Duplo -" + " R$ 4,90 KG -   Acima de 5KG R$ 5,80");
-        System.out.println("Alcatra -" + "    R$ 5,90 KG -   Acima de 5KG R$ 6,80");
-        System.out.println("Picanha -" + "    R$ 6,90 KG -   Acima de 5KG R$ 7,80");
+        System.out.println("File Duplo -      R$ 4,90 KG -   Acima de 5KG R$ 5,80");
+        System.out.println("Alcatra -         R$ 5,90 KG -   Acima de 5KG R$ 6,80");
+        System.out.println("Picanha -         R$ 6,90 KG -   Acima de 5KG R$ 7,80");
         System.out.println("------------ Somente um Tipo de Carne! -------------");
 
         String meat = scanner.nextLine();
@@ -25,7 +25,7 @@ public class Challenger028 {
         double totalKiles = scanner.nextDouble();
 
         double valueDobleFile = 4.9;
-        double overValueDobleFile = 5.8;
+        double overValueDoubleFile = 5.8;
         double valueRump = 5.9;
         double overValueRump = 6.8;
         double valueFiletSteak = 6.9;
@@ -39,7 +39,7 @@ public class Challenger028 {
 
         if(meat.equalsIgnoreCase("file duplo")){
             if(totalKiles > 5){
-                priceDobleFile = (totalKiles * overValueDobleFile);
+                priceDobleFile = (totalKiles * overValueDoubleFile);
             } else {
                 priceDobleFile = (totalKiles * valueDobleFile);
             }
