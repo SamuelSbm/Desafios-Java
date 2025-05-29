@@ -21,7 +21,7 @@ public class Challenger028 {
             return;
         }
 
-        System.out.print("Quantos KG:");
+        System.out.print("Quantos KG de carne?:");
         double totalKiles = scanner.nextDouble();
 
         double valueDobleFile = 4.9;
