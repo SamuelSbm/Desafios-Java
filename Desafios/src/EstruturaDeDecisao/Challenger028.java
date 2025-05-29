@@ -73,7 +73,7 @@ public class Challenger028 {
         System.out.println("                      --= Cumpom fiscal =--                       ");
         if(priceDobleFile > 0)System.out.printf("\nFile Duplo R$ %.2f -- %.0fKG\n", priceDobleFile, totalKiles);
         if(priceRump > 0)System.out.printf("\nAlcatra R$ %.2f -- %.0fKG\n", priceRump, totalKiles);
-        if(priceFileSteak > 0)System.out.printf("\nPicanha R$ %.2f -- %.0f\n", priceFileSteak, totalKiles);
+        if(priceFileSteak > 0)System.out.printf("\nPicanha R$ %.2f -- %.0fKG\n", priceFileSteak, totalKiles);
 
         int selection ;
 
@@ -96,7 +96,7 @@ public class Challenger028 {
             if(priceRump > 0)System.out.println("Valor a pagar: R$ " + priceRump);
         }
         if(selection == 1){
-            if(priceFileSteak > 0)System.out.println("Valor a pagar: R$ " + priceRump);
+            if(priceFileSteak > 0)System.out.println("Valor a pagar: R$ " + priceFileSteak);
         }
         if(selection == 2){
             if(priceDobleFile > 0) {
