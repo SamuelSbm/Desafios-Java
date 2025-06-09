@@ -14,8 +14,7 @@ public class Challenger002 {
             System.out.println("Erro: A base e o expoente devem ser números inteiros não negativos.");
             return;
         }
-
-
+        
         int result = 1;
 
         for (int i = 0; i < exponent; i++) {
